@@ -1,0 +1,188 @@
+.form-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: #f8f8f8;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.form-heading {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.datepicker-container {
+  position: relative;
+}
+
+.datepicker-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.datepicker-input::placeholder {
+  color: #999;
+}
+
+.datepicker-calendar {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  z-index: 999;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.datepicker-calendar .react-datepicker {
+  width: 100%;
+}
+
+.datepicker-calendar .react-datepicker-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+.datepicker-calendar .react-datepicker__input-container {
+  width: 100%;
+}
+
+.datepicker-calendar .react-datepicker__input-container input {
+  width: 100%;
+}
+
+.datepicker-calendar .react-datepicker__close-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+  .link-style {
+    text-decoration: none;
+    color: #fcfcfc;
+    padding: 10px 20px;
+    background-color: #d64550;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+    position: relative; /* or position: absolute; */
+    top: 20px;
+   
+  }
+  
+  .link-style:hover {
+    background-color: #eb9696;
+  }
+  
+  .link-style:focus {
+    outline: none;
+  }
+  
+  .link-style:active {
+    background-color: #d1d1d1;
+  }
+  .nametext{
+    padding-top: 10px;
+    background-color: rgba(237, 227, 226, 0.651);
+    border-radius: 10px;
+    border-color: black;
+    position: relative; /* or position: absolute; */
+    top: 50px;
+
+
+  }
+  .tablehead{
+    color: #ffffff;
+    background-color: #d64550;
+
+  }
+  .tablehead1{
+    color: #ffffff;
+    background-color: #d64550;
+
+  }
+  .status-pending {
+    background-color: #f39c12;
+    color: #bc8b19;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  .status-agreed {
+    background-color: #2ecc71;
+    color: #149b16;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  .status-disagreed {
+    background-color: #e74c3c;
+    color: #ab0f0f;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  .table.table-striped.custom-table tbody tr td.status-pending {
+    background-color: unset;
+  }
+  
+  .table.table-hover.custom-table tbody tr:hover td.status {
+    background-color: unset;
+  }
+ 
+  .page-container {
+    position: relative;
+  }
+  
+  .archieved-button {
+    position: absolute;
+    left: 63%;
+    top: 3%;
+  }
+  
+  .blur-background {
+    filter: blur(5px);
+  }
+  
+  .no-request{
+    color: rgb(75, 77, 75);
+
+  }
+  
+  
+  
+  
+  
+  
